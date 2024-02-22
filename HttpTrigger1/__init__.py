@@ -34,7 +34,7 @@ def process_message(message):
             matched_channels.update(channels)
     # どのキーワードにもマッチしない場合は、デフォルトのチャンネルを返す
     if not matched_channels:
-        matched_channels.add("https://discord.com/api/webhooks/1131790244006596749/lTvWfGkIcQyhlcPUqou7amJpyFa4X5c9sd5YaAzWcGKEGLHm0dUqNkL0knI6LuKVtDG-")
+        matched_channels.add("Defaultchannel")
 
     return matched_channels
 
